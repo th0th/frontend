@@ -1,0 +1,30 @@
+$font-base-url: "/" !default;
+
+@font-face {
+  font-family: Inter;
+  font-stretch: 25% 151%;
+  font-weight: 100 900;
+  src: url($font-base-url + "Inter.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Noto Serif";
+  font-stretch: 25% 151%;
+  font-weight: 100 900;
+  src: url($font-base-url + "NotoSerif.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Noto Serif";
+  font-stretch: 25% 151%;
+  font-style: italic;
+  font-weight: 100 900;
+  src: url($font-base-url + "NotoSerif-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Mono";
+  font-stretch: 25% 151%;
+  font-weight: 100 900;
+  src: url($font-base-url + "RobotoMono.ttf") format("truetype");
+}
